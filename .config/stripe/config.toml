@@ -1,0 +1,25 @@
+color = ''
+project-name = 'default'
+
+[default]
+account_id = 'acct_1RlN6UJlT2wUIlbt'
+device_name = 'MacBook-Pro.local'
+display_name = 'Maariz'
+live_mode_api_key = 'rk_live_***********************************************************************************************7rKQ'
+live_mode_key_expires_at = '2026-07-20'
+live_mode_pub_key = 'pk_live_51RlN6UJlT2wUIlbtBwfzPfA4iPtxSWBQI1kuWTsHEqCS1s6DIK8gn81WzvqJlQwJxHrJkAN4mCew1rtFEdsduoUa00USy7uUr0'
+test_mode_api_key = 'sk_test_51RlN6UJlT2wUIlbtzOc85GxlWqTJRqM9DDcSVTsAx5MbnD1xCUrjBp1vy6Ym0NIiRI8stV076iNf32Edi6I6xlqQ00dOIdbhqZ'
+test_mode_key_expires_at = '2026-07-20'
+test_mode_pub_key = 'pk_test_51RlN6UJlT2wUIlbtdaRfIPK2KqvATEm3vR5fWyjMIxlJrXtptBVOYinogCwAxvYKFlUmyjuYMxaitVEqjxC2J12200yCdr87Jl'
+
+[maariz]
+account_id = 'acct_1RlN6UJlT2wUIlbt'
+device_name = 'MacBook-Pro.local'
+display_name = 'Maariz'
+live_mode_api_key = 'rk_live_***********************************************************************************************62KK'
+live_mode_key_expires_at = '2026-07-06'
+live_mode_pub_key = 'pk_live_51RlN6UJlT2wUIlbtBwfzPfA4iPtxSWBQI1kuWTsHEqCS1s6DIK8gn81WzvqJlQwJxHrJkAN4mCew1rtFEdsduoUa00USy7uUr0'
+profile_name = 'Maariz'
+test_mode_api_key = 'sk_test_51RlN6UJlT2wUIlbtqszYfy7uwNlN3xuqOYCzaoBLEL9lpIjMmVBeK0k73xDhX8rLAHy8ZtfJohfGGQGKerY0RZg600dS8mmIWw'
+test_mode_key_expires_at = '2026-07-06'
+test_mode_pub_key = 'pk_test_51RlN6UJlT2wUIlbtdaRfIPK2KqvATEm3vR5fWyjMIxlJrXtptBVOYinogCwAxvYKFlUmyjuYMxaitVEqjxC2J12200yCdr87Jl'
