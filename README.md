@@ -21,9 +21,6 @@ This repository currently manages configuration under `.config`, including:
 
 - macOS or Linux
 - `git`
-
-Optional but useful:
-
 - `stow` (for symlink management)
 
 ## Install
