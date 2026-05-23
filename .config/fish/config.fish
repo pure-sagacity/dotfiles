@@ -45,3 +45,5 @@ set -x PATH (brew --prefix rustup)/bin $PATH
 export PATH="/opt/homebrew/bin:$PATH"
 
 set HOMEBREW_NO_ENV_HINTS 1
+
+set EDITOR nvim
