@@ -25,9 +25,8 @@ set --export PATH $BUN_INSTALL/bin $PATH
 set -gx PATH $PATH /Users/Maaz/.lmstudio/bin
 # End of LM Studio CLI section
 
-export ANTHROPIC_BASE_URL=http://192.168.1.22:1234
-#export ANTHROPIC_BASE_URL=http://127.0.0.1:1234
-export ANTHROPIC_AUTH_TOKEN=lmstudio
+set -gx ANTHROPIC_BASE_URL http://100.78.238.25:11434
+set -gx ANTHROPIC_AUTH_TOKEN ollama
 
 alias cea="bunx create-expo-app --no-install"
 
@@ -38,12 +37,12 @@ export CPM_SOURCE_CACHE="/Users/Maaz/.cache/cpm_cache"
 export VCPKG_ROOT="$HOME/vcpkg"
 export PATH="$VCPKG_ROOT:$PATH"
 
-set -x GPG_TTY $(tty)
+set -gx GPG_TTY $(tty)
 
-set -x PATH (brew --prefix rustup)/bin $PATH
+set -gx PATH (brew --prefix rustup)/bin $PATH
 
 export PATH="/opt/homebrew/bin:$PATH"
 
-set HOMEBREW_NO_ENV_HINTS 1
+set -gx HOMEBREW_NO_ENV_HINTS 1
 
-set EDITOR nvim
+set -gx EDITOR nvim
