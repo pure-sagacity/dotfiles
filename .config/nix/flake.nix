@@ -1,5 +1,5 @@
 {
-  description = "Maaz macOS Nix config";
+  description = "Maaz Nix config";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
@@ -13,9 +13,9 @@
 
   outputs = { self, nixpkgs, nix-darwin, home-manager, ... }:
   let
-    system = "aarch64-darwin"; # change to x86_64-darwin if Intel Mac
+    system = "aarch64-darwin";
   in {
-    darwinConfigurations.mac = nix-darwin.lib.darwinSystem {
+    darwinConfigurations.MacBook-Pro = nix-darwin.lib.darwinSystem {
       inherit system;
 
       modules = [
@@ -26,7 +26,7 @@
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
 
-          home-manager.users.maaz = import ./home;
+          home-manager.users.Maaz = import ./home.nix;
         }
       ];
     };
