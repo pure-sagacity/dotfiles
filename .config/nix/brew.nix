@@ -55,5 +55,9 @@
     "rar"
     "slack"
     "wireshark-app"
+    "iina"
+    #"hammerspoon"
   ];
+  # Auto deletes any brews/casks that are not specified in the configuration
+  onActivation.cleanup = "zap";
 }
