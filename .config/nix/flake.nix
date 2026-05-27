@@ -23,6 +23,7 @@
       nix.settings.experimental-features = "nix-command flakes";
 
       programs.fish.enable = true;
+      users.users.Maaz.shell = pkgs.fish;
 
       system.configurationRevision = self.rev or self.dirtyRev or null;
 
@@ -56,12 +57,29 @@
           FXPreferredViewStyle = "clmv";
           FXEnableExtensionChangeWarning = false;
           ShowPathbar = true;
+          ShowStatusBar = true;
         };
-        loginwindow.GuestEnabled = false;
+        iCal = {
+          "first day of week" = "Sunday";
+        };
+        loginwindow = {
+          GuestEnabled = false;
+          DisableConsoleAccess = true;
+        };
+        menuExtraClock = { 
+          Show24Hour = true;
+          FlashDateSeparators = true;
+        };
+        trackpad = {
+          TrackpadRightClick = true;
+          TrackpadRotate = true;
+          Clicking = true;
+        };
         NSGlobalDomain.AppleICUForce24HourTime = true;
-        
         screencapture.location = "~/Downloads/Screenshots";
       };
+
+      time.timeZone = "America/Chicago";
 
       homebrew = import ./brew.nix;
 
