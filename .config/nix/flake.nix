@@ -12,8 +12,10 @@
     configuration = { pkgs, ... }: {
       # List packages installed in system profile. To search by name, run:
       # $ nix-env -qaP | grep wget
-      environment.systemPackages =
-        [ pkgs.vim ];
+      environment.systemPackages = with pkgs; [
+        vim
+        pay-respects
+      ];
 
       # Necessary for using flakes on this system.
       nix.settings.experimental-features = "nix-command flakes";
@@ -33,20 +35,24 @@
 	      reattach = true;
       };
 
+      system.primaryUser = "Maaz";
+
       system.defaults = {
         dock = {
           autohide = false;
           enable-spring-load-actions-on-all-items = true;
           appswitcher-all-displays = true;
-          expose-animation-duration = 0.5;
+          expose-animation-duration = 0.3;
           magnification = true;
-          largesize = 20;
-          mineeffect = "genie";
+          largesize = 70;
+          mineffect = "genie";
           minimize-to-application = false;
           orientation = "bottom";
         };
         screencapture.location = "~/Downloads/Screenshots";
       };
+
+      homebrew = import ./brew.nix;
 
       # The platform the configuration will be used on.
       nixpkgs.hostPlatform = "aarch64-darwin";
