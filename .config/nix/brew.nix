@@ -62,7 +62,6 @@
   # {App Name} = {App ID}
   # Get App ID with mas search {app}
   masApps = {
-    "Xcode" = 497799835;
     "Tailscale" = 1475387142;
     "Localsend" = 1661733229;
   };

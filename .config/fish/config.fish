@@ -14,6 +14,8 @@ if status is-interactive
     pay-respects fish --alias | source
     ## Nix Darwin
     alias rebuild='sudo darwin-rebuild switch --flake ~/Dotfiles/.config/nix#MacBook-Pro'
+    alias update='nix flake update --flake ~/Dotfiles/.config/nix'
+    alias upgrade='update && rebuild'
 
     # Enabling TMUX if not already
     if not set -q TMUX
