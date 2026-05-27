@@ -58,6 +58,7 @@
     "iina"
     "localsend"
     "tailscale-app"
+    "nikitabobko/tap/aerospace"
   ];
   # Auto deletes any brews/casks that are not specified in the configuration
   onActivation.cleanup = "zap";
