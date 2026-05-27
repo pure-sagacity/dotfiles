@@ -1,2 +1,1 @@
--- bootstrap lazy.nvim, LazyVim and your plugins
-require("config.lazy")
+/nix/store/9smdis31j6hvfn0qdaka21hbkjspzhrv-home-manager-files/.config/nvim/init.lua
