@@ -13,7 +13,7 @@ if status is-interactive
     ## Pay Respects (thefuck replacement)
     pay-respects fish --alias | source
     ## Nix Darwin
-    alias rebuild='sudo darwin-rebuild switch --flake ~/Dotfiles/.config/nix'
+    alias rebuild='sudo darwin-rebuild switch --flake ~/Dotfiles/.config/nix#MacBook-Pro'
 
     # Enabling TMUX if not already
     if not set -q TMUX
