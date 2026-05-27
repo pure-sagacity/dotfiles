@@ -52,7 +52,11 @@
             "/Applications/Visual Studio Code - Insiders.app"
           ];
         };
-        finder.FXPreferredViewStyle = "clmv";
+        finder = {
+          FXPreferredViewStyle = "clmv";
+          FXEnableExtensionChangeWarning = false;
+          ShowPathbar = true;
+        };
         loginwindow.GuestEnabled = false;
         NSGlobalDomain.AppleICUForce24HourTime = true;
         
