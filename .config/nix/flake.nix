@@ -26,7 +26,12 @@
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
 
-          home-manager.users.Maaz = import ./home.nix;
+          home-manager.users.Maaz = {
+            imports = [ ./home ];
+
+            home.username = "Maaz";
+            home.homeDirectory = "/Users/Maaz";
+          };
         }
       ];
     };
