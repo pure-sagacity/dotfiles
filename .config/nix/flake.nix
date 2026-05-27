@@ -11,7 +11,7 @@
   let
     configuration = { pkgs, ... }: {
       environment.systemPackages = with pkgs; [
-        vim
+        neovim
         pay-respects
       ];
 
