@@ -1,16 +1,16 @@
 if status is-interactive
-    starship init fish | source
-    zoxide init fish | source
-    alias cd=z
-    alias cat=/opt/homebrew/bin/bat
-    alias ocat=/bin/cat
-    alias docker=podman
-    alias ls='eza --icons'
-    alias ols=/bin/ls
-    alias kubectx='kubectl config use-context'
-    if not set -q TMUX
-        tmux
-    end
+    # starship init fish | source
+    # zoxide init fish | source
+    # alias cd=z
+    # alias cat=/opt/homebrew/bin/bat
+    # alias ocat=/bin/cat
+    # alias docker=podman
+    # alias ls='eza --icons'
+    # alias ols=/bin/ls
+    # alias kubectx='kubectl config use-context'
+    #if not set -q TMUX
+    #    tmux
+    #end
 end
 
 function fish_greeting
@@ -39,9 +39,9 @@ export PATH="$VCPKG_ROOT:$PATH"
 
 set -gx GPG_TTY $(tty)
 
-set -gx PATH (brew --prefix rustup)/bin $PATH
+#set -gx PATH (brew --prefix rustup)/bin $PATH
 
-export PATH="/opt/homebrew/bin:$PATH"
+#export PATH="/opt/homebrew/bin:$PATH"
 
 set -gx HOMEBREW_NO_ENV_HINTS 1
 
