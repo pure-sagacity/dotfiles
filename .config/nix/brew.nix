@@ -27,7 +27,7 @@
     "openssh"
     "openssl"
     "pass"
-    "pinentry"
+    "pinentry-mac"
     "qemu"
     "ripgrep"
     "rustup"
