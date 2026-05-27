@@ -10,6 +10,8 @@ if status is-interactive
     alias ls='eza --icons'
     alias ols=/bin/ls
     alias kubectx='kubectl config use-context'
+    ## Pay Respects (thefuck replacement)
+    pay-respects fish --alias | source
     ## Nix Darwin
     alias rebuild='sudo darwin-rebuild switch --flake ~/Dotfiles/.config/nix'
 
