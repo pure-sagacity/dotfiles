@@ -46,7 +46,16 @@
           mineffect = "genie";
           minimize-to-application = false;
           orientation = "bottom";
+          persistent-apps = [
+            "/Applications/Ghostty.app"
+            "/Applications/Brave Browser.app"
+            "/Applications/Visual Studio Code - Insiders.app"
+          ];
         };
+        finder.FXPreferredViewStyle = "clmv";
+        loginwindow.GuestEnabled = false;
+        NSGlobalDomain.AppleICUForce24HourTime = true;
+        
         screencapture.location = "~/Downloads/Screenshots";
       };
 

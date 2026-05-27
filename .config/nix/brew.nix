@@ -44,7 +44,6 @@
     "yazi"
     "yt-dlp"
     "zoxide"
-    "mas"
     "caddy"
   ];
   casks = [
@@ -57,14 +56,11 @@
     "slack"
     "wireshark-app"
     "iina"
-    #"hammerspoon"
+    "localsend"
+    "tailscale-app"
   ];
-  # {App Name} = {App ID}
-  # Get App ID with mas search {app}
-  masApps = {
-    "Tailscale" = 1475387142;
-    "Localsend" = 1661733229;
-  };
   # Auto deletes any brews/casks that are not specified in the configuration
   onActivation.cleanup = "zap";
+  onActivation.autoUpdate = true;
+  onActivation.upgrade = true;
 }
