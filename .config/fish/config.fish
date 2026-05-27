@@ -47,7 +47,7 @@ export CPM_SOURCE_CACHE="/Users/Maaz/.cache/cpm_cache"
 export VCPKG_ROOT="$HOME/vcpkg"
 export PATH="$VCPKG_ROOT:$PATH"
 
-set -gx GPG_TTY $(tty)
+set -gx GPG_TTY (tty)
 
 set -gx PATH (brew --prefix rustup)/bin $PATH
 
