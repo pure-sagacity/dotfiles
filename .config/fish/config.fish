@@ -1,6 +1,8 @@
 if status is-interactive
+    # Starship and Zoxide
     starship init fish | source
     zoxide init fish | source
+    # Aliases
     alias cd=z
     alias cat=/opt/homebrew/bin/bat
     alias ocat=/bin/cat
@@ -8,6 +10,10 @@ if status is-interactive
     alias ls='eza --icons'
     alias ols=/bin/ls
     alias kubectx='kubectl config use-context'
+    ## Nix Darwin
+    alias rebuild='sudo darwin-rebuild switch --flake ~/Dotfiles/.config/nix'
+
+    # Enabling TMUX if not already
     if not set -q TMUX
         tmux
     end
