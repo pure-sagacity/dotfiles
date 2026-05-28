@@ -16,6 +16,8 @@ if status is-interactive
     alias rebuild='sudo darwin-rebuild switch --flake ~/Dotfiles/.config/nix#MacBook-Pro'
     alias update='nix flake update --flake ~/Dotfiles/.config/nix'
     alias upgrade='update && rebuild'
+    ## Simple Aliases (Single Letter Commands)
+    alias v=nvim
 
     # Enabling TMUX if not already
     if not set -q TMUX
