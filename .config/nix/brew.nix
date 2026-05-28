@@ -1,9 +1,6 @@
 {
   enable = true;
   enableFishIntegration = true;
-  taps = [
-    "FelixKratz/formulae"
-  ]
   brews = [
     "bat"
     "carapace"
@@ -48,7 +45,6 @@
     "yt-dlp"
     "zoxide"
     "caddy"
-    "sketchybar"
   ];
   casks = [
     "copilot-cli"
@@ -66,6 +62,8 @@
   ];
   # Auto deletes any brews/casks that are not specified in the configuration
   onActivation.cleanup = "zap";
+
+  # Updates (obviously)
   onActivation.autoUpdate = true;
   onActivation.upgrade = true;
 }

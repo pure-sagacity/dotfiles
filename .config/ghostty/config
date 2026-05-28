@@ -1,6 +1,6 @@
 window-padding-x = 2
 
-font-family = "JetBrains Mono"
+font-family = "JetBrains Mono NL"
 
 macos-icon = custom
 macos-custom-icon = /Users/Maaz/.config/ghostty/Ghostty.icns
