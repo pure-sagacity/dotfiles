@@ -70,7 +70,7 @@
         };
         menuExtraClock = { 
           Show24Hour = true;
-          FlashDateSeparators = true;
+          FlashDateSeparators = false;
         };
         trackpad = {
           TrackpadRightClick = true;
