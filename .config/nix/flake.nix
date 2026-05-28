@@ -50,6 +50,7 @@
           minimize-to-application = false;
           orientation = "bottom";
           persistent-apps = [
+            "/System/Applications/Apps.app"
             "/Applications/Ghostty.app"
             "/Applications/Brave Browser.app"
             "/Applications/Visual Studio Code - Insiders.app"
