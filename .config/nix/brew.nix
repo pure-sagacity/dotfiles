@@ -1,6 +1,9 @@
 {
   enable = true;
   enableFishIntegration = true;
+  taps = [
+    "FelixKratz/formulae"
+  ]
   brews = [
     "bat"
     "carapace"
@@ -45,6 +48,7 @@
     "yt-dlp"
     "zoxide"
     "caddy"
+    "sketchybar"
   ];
   casks = [
     "copilot-cli"
