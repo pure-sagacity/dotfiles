@@ -14,6 +14,7 @@
       environment.systemPackages = with pkgs; [
         neovim
         pay-respects
+        mosh
       ];
 
       fonts.packages = with pkgs; [
