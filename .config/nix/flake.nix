@@ -38,7 +38,9 @@
 
       system.defaults = {
         dock = {
-          autohide = false;
+          autohide = true;
+          autohide-delay = 0.01;
+          autohide-time-modifier = 0.01;
           enable-spring-load-actions-on-all-items = true;
           appswitcher-all-displays = true;
           expose-animation-duration = 0.3;
