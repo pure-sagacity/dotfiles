@@ -17,6 +17,7 @@
     "gcc"
     "gnupg"
     "kubernetes-helm"
+    "helmfile"
     "kubectl"
     "lima"
     "minikube"
