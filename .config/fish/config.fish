@@ -16,6 +16,10 @@ if status is-interactive
     alias rebuild='sudo darwin-rebuild switch --flake ~/Dotfiles/.config/nix#MacBook-Pro'
     alias update='nix flake update --flake ~/Dotfiles/.config/nix'
     alias upgrade='update && rebuild'
+
+    ## Nix In General
+    abbr --add nixos-rebuild 'nix run nixpkgs#nixos-rebuild --'
+
     ## Simple Aliases (Single Letter Commands)
     alias v=nvim
 
