@@ -55,7 +55,7 @@ export PATH="$VCPKG_ROOT:$PATH"
 
 set -gx GPG_TTY (tty)
 
-set -gx PATH (brew --prefix rustup)/bin $PATH
+set -gx PATH (brew --prefix rustup)/bin "$HOME/.cargo/bin" $PATH
 
 export PATH="/opt/homebrew/bin:$PATH"
 
