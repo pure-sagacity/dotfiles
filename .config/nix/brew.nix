@@ -62,6 +62,8 @@
     "yoink"
     "nikitabobko/tap/aerospace"
     "codex-app"
+    "superwhisper"
+    "wallspace"
   ];
   # Auto deletes any brews/casks that are not specified in the configuration
   onActivation.cleanup = "zap";

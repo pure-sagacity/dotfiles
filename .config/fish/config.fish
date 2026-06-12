@@ -13,7 +13,7 @@ if status is-interactive
     ## Pay Respects (thefuck replacement)
     pay-respects fish --alias | source
     ## Nix Darwin
-    alias rebuild='sudo darwin-rebuild switch --flake ~/Dotfiles/.config/nix#MacBook-Pro'
+    alias nrs='sudo darwin-rebuild switch --flake ~/Dotfiles/.config/nix#MacBook-Pro'
     alias update='nix flake update --flake ~/Dotfiles/.config/nix'
     alias upgrade='update && rebuild'
 
