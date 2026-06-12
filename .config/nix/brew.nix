@@ -61,6 +61,7 @@
     "tailscale-app"
     "yoink"
     "nikitabobko/tap/aerospace"
+    "codex-app"
   ];
   # Auto deletes any brews/casks that are not specified in the configuration
   onActivation.cleanup = "zap";
