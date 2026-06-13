@@ -49,7 +49,6 @@
   ];
   casks = [
     "copilot-cli"
-    "discord"
     "ghostty"
     "openclaw"
     "podman-desktop"
@@ -65,6 +64,7 @@
     "superwhisper"
     "wallspace"
     "moonlight"
+    "vesktop"
   ];
   # Auto deletes any brews/casks that are not specified in the configuration
   onActivation.cleanup = "zap";
