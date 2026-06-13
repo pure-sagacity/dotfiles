@@ -64,6 +64,7 @@
     "codex-app"
     "superwhisper"
     "wallspace"
+    "moonlight"
   ];
   # Auto deletes any brews/casks that are not specified in the configuration
   onActivation.cleanup = "zap";

@@ -15,6 +15,7 @@
         neovim
         pay-respects
         mosh
+        doggo
       ];
 
       fonts.packages = with pkgs; [
