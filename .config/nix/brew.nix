@@ -49,7 +49,6 @@
   ];
   casks = [
     "copilot-cli"
-    "zed"
     "ghostty"
     "openclaw"
     "podman-desktop"
