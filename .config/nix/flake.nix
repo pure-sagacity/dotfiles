@@ -24,7 +24,7 @@
             pay-respects
             mosh
             doggo
-            nixfmt
+            nixfmt-tree
           ];
 
           fonts.packages = with pkgs; [
