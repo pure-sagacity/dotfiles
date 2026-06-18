@@ -15,7 +15,7 @@ if status is-interactive
     ## Nix Darwin
     alias nrs='sudo darwin-rebuild switch --flake ~/Dotfiles/.config/nix#MacBook-Pro'
     alias update='nix flake update --flake ~/Dotfiles/.config/nix'
-    alias upgrade='update && rebuild'
+    alias upgrade='update && nrs'
 
     ## Nix In General
     abbr --add nixos-rebuild 'nix run nixpkgs#nixos-rebuild --'
