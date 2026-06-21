@@ -20,11 +20,53 @@
         { pkgs, ... }:
         {
           environment.systemPackages = with pkgs; [
-            neovim
             pay-respects
             mosh
             doggo
+            nixfmt
             nixfmt-tree
+            fzf
+            bat
+            carapace
+            cmake
+            cmatrix
+            podman
+            podman-compose
+            eza
+            fastfetch
+            fd
+            ffmpeg
+            fish
+            gcc
+            gnupg
+            kubernetes-helm
+            helmfile
+            kubectl
+            lima
+            minikube
+            nasm
+            neovim
+            ninja
+            nodejs
+            openssh
+            openssl
+            pass
+            qemu
+            ripgrep
+            rustup
+            sqlite
+            starship
+            stow
+            tmux
+            unzip
+            wakeonlan
+            wget
+            xh
+            xz
+            yazi
+            yt-dlp
+            zoxide
+            caddy
           ];
 
           fonts.packages = with pkgs; [
