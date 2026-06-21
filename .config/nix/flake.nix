@@ -27,6 +27,7 @@
             nixfmt-tree
             fzf
             bat
+            devenv
             carapace
             cmake
             cmatrix
