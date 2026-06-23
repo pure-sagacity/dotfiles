@@ -2,16 +2,19 @@ if status is-interactive
     # Starship and Zoxide
     starship init fish | source
     zoxide init fish | source
+
     # Aliases
     alias cd=z
-    alias cat=/opt/homebrew/bin/bat
+    alias cat=/run/current-system/sw/bin/bat
     alias ocat=/bin/cat
     alias docker=podman
-    alias ls='eza --icons'
+    alias ls='/run/current-system/sw/bin/eza --icons'
     alias ols=/bin/ls
     alias kubectx='kubectl config use-context'
+
     ## Pay Respects (thefuck replacement)
     pay-respects fish --alias | source
+
     ## Nix Darwin
     alias nrs='sudo darwin-rebuild switch --flake ~/Dotfiles/.config/nix#MacBook-Pro'
     alias update='nix flake update --flake ~/Dotfiles/.config/nix'
