@@ -79,6 +79,13 @@
           programs.fish.enable = true;
           users.users.Maaz.shell = pkgs.fish;
 
+          nix.settings = {
+              trusted-users = [
+                "root"
+                "Maaz"
+              ];
+            };
+
           system.configurationRevision = self.rev or self.dirtyRev or null;
 
           system.stateVersion = 6;
