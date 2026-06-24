@@ -17,7 +17,7 @@
     }:
     let
       configuration =
-        { pkgs, ... }:
+        { pkgs, inputs, ... }:
         {
           environment.systemPackages = with pkgs; [
             pay-respects
@@ -71,6 +71,8 @@
             nixd
           ];
 
+          nix.nixPath = [ "nixpkgs=${inputs.nixpkgs}" ];
+
           fonts.packages = with pkgs; [
             nerd-fonts.jetbrains-mono
           ];
@@ -81,11 +83,11 @@
           users.users.Maaz.shell = pkgs.fish;
 
           nix.settings = {
-              trusted-users = [
-                "root"
-                "Maaz"
-              ];
-            };
+            trusted-users = [
+              "root"
+              "Maaz"
+            ];
+          };
 
           system.configurationRevision = self.rev or self.dirtyRev or null;
 
