@@ -68,6 +68,7 @@
             yt-dlp
             zoxide
             caddy
+            nixd
           ];
 
           fonts.packages = with pkgs; [
