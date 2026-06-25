@@ -69,6 +69,7 @@
             zoxide
             caddy
             nixd
+            nix-search
           ];
 
           nix.nixPath = [ "nixpkgs=${inputs.nixpkgs}" ];
@@ -155,6 +156,8 @@
     in
     {
       darwinConfigurations."MacBook-Pro" = nix-darwin.lib.darwinSystem {
+        specialArgs = { inherit inputs; };
+
         modules = [
           configuration
           nix-homebrew.darwinModules.nix-homebrew
