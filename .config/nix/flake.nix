@@ -12,7 +12,6 @@
     inputs@{
       self,
       nix-darwin,
-      nixpkgs,
       nix-homebrew,
     }:
     let
@@ -164,7 +163,6 @@
           {
             nix-homebrew = {
               enable = true;
-              # Apple Silicon Only
               enableRosetta = true;
               user = "Maaz";
 
