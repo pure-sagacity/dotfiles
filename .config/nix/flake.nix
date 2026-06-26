@@ -11,6 +11,7 @@
   outputs =
     inputs@{
       self,
+      nixpkgs,
       nix-darwin,
       nix-homebrew,
     }:
@@ -50,7 +51,6 @@
             nodejs
             openssh
             openssl
-            pass
             qemu
             ripgrep
             rustup

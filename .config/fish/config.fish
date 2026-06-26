@@ -3,6 +3,9 @@ if status is-interactive
     starship init fish | source
     zoxide init fish | source
 
+    # Activate Dotenv On CD
+    eval "$(devenv hook fish)"
+
     # Aliases
     alias cd=z
     alias cat=/run/current-system/sw/bin/bat
