@@ -1,7 +1,7 @@
 if status is-interactive
     # Starship and Zoxide
     starship init fish | source
-    zoxide init --cmd=cd fish | source
+    zoxide init fish | source
 
     # Activate Dotenv On CD
     eval "$(devenv hook fish)"
@@ -27,6 +27,7 @@ if status is-interactive
 
     ## Simple Aliases (Single Letter Commands)
     alias v=nvim
+    alias y=yazi
 
     # Enabling TMUX if not already
     if not set -q TMUX
