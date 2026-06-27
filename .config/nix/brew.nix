@@ -18,7 +18,6 @@
     "tailscale-app"
     "yoink"
     "nikitabobko/tap/aerospace"
-    "codex-app"
     "superwhisper"
     "wallspace"
     "moonlight"
