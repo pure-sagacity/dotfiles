@@ -1,10 +1,11 @@
 if status is-interactive
-    # Starship and Zoxide
-    starship init fish | source
-    zoxide init fish | source
 
     # Activate Dotenv On CD
     eval "$(devenv hook fish)"
+
+    # Starship and Zoxide
+    starship init fish | source
+    zoxide init fish | source
 
     # Aliases
     alias cat=/run/current-system/sw/bin/bat

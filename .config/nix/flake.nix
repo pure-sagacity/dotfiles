@@ -68,7 +68,6 @@
             zoxide
             caddy
             nixd
-            nix-search
           ];
 
           nix.nixPath = [ "nixpkgs=${inputs.nixpkgs}" ];
