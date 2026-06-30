@@ -68,6 +68,7 @@
             zoxide
             caddy
             nixd
+            doppler
           ];
 
           nix.nixPath = [ "nixpkgs=${inputs.nixpkgs}" ];
