@@ -69,6 +69,7 @@
             caddy
             nixd
             doppler
+            tea
           ];
 
           nix.nixPath = [ "nixpkgs=${inputs.nixpkgs}" ];
