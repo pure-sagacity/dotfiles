@@ -17,7 +17,6 @@
     "localsend"
     "tailscale-app"
     "yoink"
-    "nikitabobko/tap/aerospace"
     "superwhisper"
     "wallspace"
     "moonlight"
