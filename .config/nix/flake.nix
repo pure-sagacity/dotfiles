@@ -78,16 +78,29 @@
             nerd-fonts.jetbrains-mono
           ];
 
-          nix.settings.experimental-features = "nix-command flakes";
-
           programs.fish.enable = true;
           users.users.Maaz.shell = pkgs.fish;
 
-          nix.settings = {
-            trusted-users = [
-              "root"
-              "Maaz"
-            ];
+          nix = {
+            gc = {
+              automatic = true;
+              interval = {
+                Hour = 3;
+                Minute = 15;
+                Weekday = 7;
+              };
+              options = "--delete-older-than 7d";
+            };
+
+            settings = {
+              experimental-features = "nix-command flakes";
+
+              trusted-users = [
+                "root"
+                "Maaz"
+              ];
+              auto-optimise-store = true;
+            };
           };
 
           system.configurationRevision = self.rev or self.dirtyRev or null;

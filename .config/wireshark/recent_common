@@ -16,10 +16,10 @@ recent.display_filter: dns
 
 # Main window geometry.
 # Decimal numbers.
-gui.geometry_main_x: 578
-gui.geometry_main_y: 232
-gui.geometry_main_width: 974
-gui.geometry_main_height: 637
+gui.geometry_main_x: 5
+gui.geometry_main_y: 44
+gui.geometry_main_width: 1790
+gui.geometry_main_height: 1091
 
 # Main window maximized.
 # true or false (case-insensitive).
@@ -27,7 +27,7 @@ gui.geometry_main_maximized: false
 
 # Main window geometry state.
 # Hex byte string.
-gui.geometry_main: 01d9d0cb0003000000000242000000e80000060f0000038000000242000001040000060f000003800000000000000000070800000242000001040000060f00000380
+gui.geometry_main: 01d9d0cb00030000000000050000002c000007020000048a0000000500000048000007020000048a000000000000000007080000000500000048000007020000048a
 
 # Leftalign Action Buttons.
 # true or false (case-insensitive).
@@ -98,6 +98,17 @@ gui.welcome_page.sidebar.tips_auto_advance: true
 
 # Welcome page sidebar Tips slide auto-advance interval in seconds.
 gui.welcome_page.sidebar.tips_interval: 8
+
+# Geometry and maximized state of PacketDialog window.
+# Decimal integers.
+gui.geom.PacketDialog.x: 174
+gui.geom.PacketDialog.y: 141
+gui.geom.PacketDialog.width: 1432
+gui.geom.PacketDialog.height: 872
+# true or false (case-insensitive).
+gui.geom.PacketDialog.maximized: false
+# Qt Geometry State (hex byte string).
+gui.geom.PacketDialog.qt_geometry: 01d9d0cb00030000000000ae0000008d0000064500000410000000ae000000a9000006450000041000000000000000000708000000ae000000a90000064500000410
 
 # Custom colors.
 # List of custom colors selected in Qt color picker.
