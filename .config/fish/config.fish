@@ -7,6 +7,7 @@ if status is-interactive
     starship init fish | source
     zoxide init fish | source
     doppler completion | source
+    tailscale completion fish | source
 
     # Aliases
     alias cat=/run/current-system/sw/bin/bat

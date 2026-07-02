@@ -129,6 +129,10 @@
             };
           };
 
+          services.tailscale = {
+            enable = true;
+          };
+
           nix.nixPath = [ "nixpkgs=${inputs.nixpkgs}" ];
 
           fonts.packages = with pkgs; [
