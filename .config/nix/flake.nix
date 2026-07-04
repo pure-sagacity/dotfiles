@@ -70,6 +70,7 @@
             nixd
             doppler
             tea
+            jujutsu
           ];
 
           services.aerospace = {
