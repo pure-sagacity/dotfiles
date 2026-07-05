@@ -1,0 +1,10 @@
+#:schema https://docs.jj-vcs.dev/latest/config-schema.json
+
+[user]
+name = "Maaz Khokhar"
+email = "khokharmaaz@gmail.com"
+
+[signing]
+behavior = "own"
+backend = "gpg"
+key = "4847917BAC5941D7"
