@@ -31,11 +31,8 @@ if status is-interactive
     ## Simple Aliases (Single Letter Commands)
     alias v=nvim
     alias y=yazi
-
-    # Enabling TMUX if not already
-    if not set -q TMUX
-        tmux
-    end
+    alias k=kubectl
+    alias j=jj
 end
 
 function fish_greeting
