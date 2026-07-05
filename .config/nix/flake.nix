@@ -3,21 +3,39 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-    nix-darwin.url = "github:nix-darwin/nix-darwin/master";
-    nix-darwin.inputs.nixpkgs.follows = "nixpkgs";
     nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
+
+    nix-darwin = {
+      url = "github:nix-darwin/nix-darwin";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    herdr = {
+      url = "github:ogulcancelik/herdr";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
+    silicate = {
+      url = "github:pure-sagacity/silicate";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
     inputs@{
       self,
       nixpkgs,
+      silicate,
+      herdr,
       nix-darwin,
       nix-homebrew,
     }:
     let
       configuration =
         { pkgs, inputs, ... }:
+        let
+          system = pkgs.stdenv.hostPlatform.system;
+        in
         {
           environment.systemPackages = with pkgs; [
             pay-respects
@@ -71,6 +89,9 @@
             doppler
             tea
             jujutsu
+
+            inputs.silicate.packages.${system}.default
+            inputs.herdr.packages.${system}.default
           ];
 
           services.aerospace = {
