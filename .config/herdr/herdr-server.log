@@ -47,3 +47,149 @@
 2026-07-05T21:20:43.506955Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
 2026-07-05T21:20:43.506971Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
 2026-07-05T21:20:48.516087Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=1
+2026-07-05T21:50:31.662936Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T22:26:10.250496Z  INFO herdr::server::headless: client connected client_id=4 cols=188 rows=51 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-05T22:27:49.650375Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T22:28:47.216780Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-05T22:30:13.556472Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-05T23:32:40.474880Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T23:33:06.120783Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-07-06T02:14:08.589629Z  INFO herdr::server::headless: client connected client_id=6 cols=188 rows=51 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-06T02:21:54.747770Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T02:29:37.419259Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=50 cols=162 scrollback_limit_bytes=10000000
+2026-07-06T02:29:37.431129Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=43602
+2026-07-06T02:29:37.431903Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w6" pane_id=6
+2026-07-06T02:29:37.431931Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-07-06T02:29:37.431949Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-07-06T02:29:42.441275Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=2
+2026-07-06T02:29:57.855106Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-07-06T02:29:57.855731Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-06T02:30:02.863496Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=2
+2026-07-06T02:30:35.054895Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-07-06T02:30:35.055028Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-07-06T02:30:40.056235Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=2
+2026-07-06T02:30:41.241591Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-07-06T02:30:41.241846Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-06T02:30:46.134298Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-07-06T02:30:46.134366Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-07-06T02:30:51.141188Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=2
+2026-07-06T02:30:52.004676Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-07-06T02:30:52.004930Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-07-06T02:30:53.914140Z  INFO herdr::app::worktrees: opening worktree dialog ws_idx=1 repo_root=/Users/Maaz/Documents/Projects/chromeonly branch="worktree/brave-stone-c3f0" checkout_path=/Users/Maaz/.herdr/worktrees/chromeonly/worktree-brave-stone-c3f0
+2026-07-06T02:30:57.010386Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=2
+2026-07-06T02:31:02.980682Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-07-06T02:31:02.981008Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-06T02:31:07.986043Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=2
+2026-07-06T02:31:12.677178Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-06T02:31:14.040679Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-06T02:31:19.045073Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=2
+2026-07-06T02:31:27.399677Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-06T02:31:30.329292Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-06T02:31:32.312167Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-07-06T02:31:32.313093Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-07-06T02:31:32.762400Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-07-06T02:31:33.747212Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-07-06T02:31:37.204391Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-07-06T02:31:37.208903Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=6 status="ExitStatus { code: 1, signal: Some(\"Hangup: 1\") }"
+2026-07-06T02:31:37.228378Z  INFO herdr::pane: pane session terminated pane=6 pid=43602 signal=Hangup
+2026-07-06T02:31:37.229078Z  WARN herdr::app::actions: PaneDied for unknown pane pane=6
+2026-07-06T02:31:39.715678Z  INFO herdr::server::headless: client resize client_id=6 cols=93 rows=51 cell_width_px=0 cell_height_px=0
+2026-07-06T02:31:40.748970Z  INFO herdr::server::headless: client resize client_id=6 cols=188 rows=51 cell_width_px=0 cell_height_px=0
+2026-07-06T02:31:42.234548Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=1
+2026-07-06T02:31:43.002181Z  INFO herdr::server::headless: client connected client_id=8 cols=188 rows=51 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-06T02:31:44.726991Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=7 rows=50 cols=162 scrollback_limit_bytes=10000000
+2026-07-06T02:31:44.740311Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=7 pid=49562
+2026-07-06T02:31:44.740930Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w7" pane_id=7
+2026-07-06T02:31:44.740949Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w7"
+2026-07-06T02:31:44.740973Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-07-06T02:31:49.757509Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=2
+2026-07-06T02:32:08.914444Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-07-06T02:32:08.914550Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-06T02:32:13.928628Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=2
+2026-07-06T02:32:17.639766Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w7"
+2026-07-06T02:32:17.646399Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=7 status="ExitStatus { code: 1, signal: Some(\"Hangup: 1\") }"
+2026-07-06T02:32:17.664898Z  INFO herdr::pane: pane session terminated pane=7 pid=49562 signal=Hangup
+2026-07-06T02:32:17.665413Z  WARN herdr::app::actions: PaneDied for unknown pane pane=7
+2026-07-06T02:32:21.208440Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 0, signal: None }"
+2026-07-06T02:32:21.210178Z  INFO herdr::pane: pane session terminated pane=5 pid=77345 signal=Hangup
+2026-07-06T02:32:21.210537Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=8 rows=50 cols=162 scrollback_limit_bytes=10000000
+2026-07-06T02:32:21.220119Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=8 pid=52626
+2026-07-06T02:32:21.220379Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w8" pane_id=8
+2026-07-06T02:32:21.220395Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-07-06T02:32:21.220406Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-07-06T02:32:21.835610Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=8 status="ExitStatus { code: 0, signal: None }"
+2026-07-06T02:32:21.836848Z  INFO herdr::pane: pane session terminated pane=8 pid=52626 signal=Hangup
+2026-07-06T02:32:21.836986Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=9 rows=50 cols=162 scrollback_limit_bytes=10000000
+2026-07-06T02:32:21.840994Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=9 pid=52676
+2026-07-06T02:32:21.841157Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w9" pane_id=9
+2026-07-06T02:32:21.841164Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w9"
+2026-07-06T02:32:21.841170Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-06T02:32:26.849798Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=1
+2026-07-06T02:32:38.800386Z  INFO herdr::server::headless: client disconnected client_id=8
+2026-07-06T02:32:38.802186Z  INFO herdr::server::headless: client disconnected client_id=6
+2026-07-06T02:32:43.309762Z  INFO herdr::server::headless: client connected client_id=10 cols=188 rows=51 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-06T02:32:46.941813Z  INFO herdr::server::headless: client resize client_id=10 cols=93 rows=51 cell_width_px=0 cell_height_px=0
+2026-07-06T02:32:49.862201Z  INFO herdr::server::headless: client resize client_id=10 cols=188 rows=51 cell_width_px=0 cell_height_px=0
+2026-07-06T02:33:45.592408Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=10 rows=50 cols=162 scrollback_limit_bytes=10000000
+2026-07-06T02:33:45.604038Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=10 pid=57147
+2026-07-06T02:33:45.604440Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t2"
+2026-07-06T02:33:50.615516Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=1
+2026-07-06T02:33:53.307821Z  INFO herdr::server::headless: client disconnected client_id=10
+2026-07-06T02:51:54.752801Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T03:21:54.757431Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T03:51:54.740738Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T04:21:54.707319Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T04:51:54.715873Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T05:21:54.698945Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T06:29:20.241155Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T06:59:20.252072Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T10:40:28.248573Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T14:54:10.251121Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T17:04:29.133126Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T17:06:51.832199Z  INFO herdr::server::headless: client connected client_id=12 cols=93 rows=51 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-06T17:06:55.842838Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=10 status="ExitStatus { code: 0, signal: None }"
+2026-07-06T17:06:55.843064Z  INFO herdr::pane: pane session terminated pane=10 pid=57147 signal=Hangup
+2026-07-06T17:07:00.849255Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=1
+2026-07-06T17:23:26.581662Z  INFO herdr::server::headless: client resize client_id=12 cols=188 rows=51 cell_width_px=0 cell_height_px=0
+2026-07-06T17:34:29.128488Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T18:04:29.177474Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T18:22:04.402555Z  INFO herdr::server::headless: client resize client_id=12 cols=93 rows=51 cell_width_px=0 cell_height_px=0
+2026-07-06T18:22:06.990223Z  INFO herdr::server::headless: client disconnected client_id=12
+2026-07-06T18:22:26.245789Z  INFO herdr::server::headless: client connected client_id=14 cols=188 rows=51 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-06T18:36:55.566379Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T18:36:59.302603Z  INFO herdr::server::headless: client resize client_id=14 cols=188 rows=49 cell_width_px=0 cell_height_px=0
+2026-07-06T18:36:59.512815Z  INFO herdr::server::headless: client resize client_id=14 cols=93 rows=49 cell_width_px=0 cell_height_px=0
+2026-07-06T18:37:00.243555Z  INFO herdr::server::headless: client resize client_id=14 cols=93 rows=51 cell_width_px=0 cell_height_px=0
+2026-07-06T18:37:00.349228Z  INFO herdr::server::headless: client resize client_id=14 cols=188 rows=51 cell_width_px=0 cell_height_px=0
+2026-07-06T18:37:19.848347Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-06T18:37:26.491199Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-06T18:37:41.612541Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-06T18:39:58.235011Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-06T18:41:49.836582Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-06T18:41:51.905646Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-06T18:42:35.598175Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-06T18:44:38.367076Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=1
+2026-07-06T18:44:43.549624Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-06T20:56:18.745608Z  INFO herdr::server::headless: client disconnected client_id=14
+2026-07-06T20:58:38.375572Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T21:28:38.371148Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T21:58:38.390401Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T22:28:38.407282Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T22:58:38.419237Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T23:28:38.431171Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-06T23:58:38.428670Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T00:28:38.456883Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T00:58:38.421213Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T01:33:02.524740Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T02:03:02.558880Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T02:33:02.547887Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T03:59:22.742363Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-07T03:59:40.796366Z  INFO herdr::server::headless: client connected client_id=16 cols=188 rows=51 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-07T03:59:48.133590Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=11 rows=50 cols=152 scrollback_limit_bytes=10000000
+2026-07-07T03:59:48.144709Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=11 pid=71521
+2026-07-07T03:59:48.145606Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t3"
+2026-07-07T03:59:53.152928Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=1
+2026-07-07T04:00:41.760438Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=12 rows=50 cols=152 scrollback_limit_bytes=10000000
+2026-07-07T04:00:41.764937Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=12 pid=76590
+2026-07-07T04:00:41.765133Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t3"
+2026-07-07T04:00:46.767591Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=1

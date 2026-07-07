@@ -1,3 +1,24 @@
 2026-07-05T21:20:31.665012Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=76608
 2026-07-05T21:20:31.665096Z  INFO herdr::client: connecting to server path=/Users/Maaz/.config/herdr/herdr-client.sock
 2026-07-05T21:20:31.902492Z  INFO herdr::client: handshake succeeded version=16 encoding=SemanticFrame
+2026-07-05T22:26:10.205395Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=4845
+2026-07-05T22:26:10.206386Z  INFO herdr::client: connecting to server path=/Users/Maaz/.config/herdr/herdr-client.sock
+2026-07-05T22:26:10.248136Z  INFO herdr::client: handshake succeeded version=16 encoding=SemanticFrame
+2026-07-06T02:14:08.519595Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=31914
+2026-07-06T02:14:08.520006Z  INFO herdr::client: connecting to server path=/Users/Maaz/.config/herdr/herdr-client.sock
+2026-07-06T02:14:08.586569Z  INFO herdr::client: handshake succeeded version=16 encoding=SemanticFrame
+2026-07-06T02:31:42.844350Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=49544
+2026-07-06T02:31:42.844660Z  INFO herdr::client: connecting to server path=/Users/Maaz/.config/herdr/herdr-client.sock
+2026-07-06T02:31:43.001739Z  INFO herdr::client: handshake succeeded version=16 encoding=SemanticFrame
+2026-07-06T02:32:43.164999Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=54608
+2026-07-06T02:32:43.165228Z  INFO herdr::client: connecting to server path=/Users/Maaz/.config/herdr/herdr-client.sock
+2026-07-06T02:32:43.309785Z  INFO herdr::client: handshake succeeded version=16 encoding=SemanticFrame
+2026-07-06T17:06:51.664665Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=53413
+2026-07-06T17:06:51.665035Z  INFO herdr::client: connecting to server path=/Users/Maaz/.config/herdr/herdr-client.sock
+2026-07-06T17:06:51.832144Z  INFO herdr::client: handshake succeeded version=16 encoding=SemanticFrame
+2026-07-06T18:22:26.008332Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=4551
+2026-07-06T18:22:26.008716Z  INFO herdr::client: connecting to server path=/Users/Maaz/.config/herdr/herdr-client.sock
+2026-07-06T18:22:26.245382Z  INFO herdr::client: handshake succeeded version=16 encoding=SemanticFrame
+2026-07-07T03:59:40.675350Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=71376
+2026-07-07T03:59:40.676267Z  INFO herdr::client: connecting to server path=/Users/Maaz/.config/herdr/herdr-client.sock
+2026-07-07T03:59:40.796158Z  INFO herdr::client: handshake succeeded version=16 encoding=SemanticFrame
