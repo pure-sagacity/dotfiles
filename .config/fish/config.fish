@@ -8,6 +8,7 @@ if status is-interactive
     zoxide init fish | source
     doppler completion | source
     tailscale completion fish | source
+    herdr completion fish | source
 
     # Aliases
     alias cat=/run/current-system/sw/bin/bat

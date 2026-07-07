@@ -2,63 +2,34 @@
   "version": 3,
   "workspaces": [
     {
-      "id": "w9",
+      "id": "wA",
       "custom_name": null,
-      "identity_cwd": "/Users/Maaz/Documents/Git/homelab",
+      "identity_cwd": "/Users/Maaz/Documents/Projects/intrepreter",
       "public_pane_numbers": {
-        "12": 4,
-        "9": 1,
-        "11": 3
+        "17": 2
       },
-      "next_public_pane_number": 5,
+      "next_public_pane_number": 7,
       "public_tab_numbers": [
-        1,
-        3
+        1
       ],
-      "next_public_tab_number": 4,
+      "next_public_tab_number": 2,
       "tabs": [
         {
           "custom_name": null,
           "layout": {
-            "Pane": 9
+            "Pane": 17
           },
           "panes": {
-            "9": {
-              "cwd": "/Users/Maaz/Documents/Git/homelab"
+            "17": {
+              "cwd": "/Users/Maaz/Documents/Projects/intrepreter"
             }
           },
           "zoomed": false,
-          "focused": 9,
-          "root_pane": 9
-        },
-        {
-          "custom_name": null,
-          "layout": {
-            "Split": {
-              "direction": "Vertical",
-              "ratio": 0.5,
-              "first": {
-                "Pane": 11
-              },
-              "second": {
-                "Pane": 12
-              }
-            }
-          },
-          "panes": {
-            "12": {
-              "cwd": "/Users/Maaz/Dotfiles"
-            },
-            "11": {
-              "cwd": "/Users/Maaz/Dotfiles"
-            }
-          },
-          "zoomed": false,
-          "focused": 12,
-          "root_pane": 11
+          "focused": 17,
+          "root_pane": 17
         }
       ],
-      "active_tab": 1
+      "active_tab": 0
     }
   ],
   "active": 0,
