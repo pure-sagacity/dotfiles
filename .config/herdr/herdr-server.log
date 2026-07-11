@@ -506,3 +506,25 @@
 2026-07-09T04:45:12.995572Z  INFO herdr::server::headless: client resize client_id=26 cols=93 rows=51 cell_width_px=0 cell_height_px=0
 2026-07-09T04:45:15.905895Z  INFO herdr::server::headless: client detach requested via keybind client_id=26
 2026-07-09T04:45:15.922873Z  INFO herdr::server::headless: client disconnected client_id=26
+2026-07-09T17:15:04.506578Z  INFO herdr::server::headless: client connected client_id=28 cols=188 rows=50 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-10T19:04:07.519290Z  INFO herdr::server::headless: client detach requested via keybind client_id=28
+2026-07-10T19:04:07.527099Z  INFO herdr::server::headless: client disconnected client_id=28
+2026-07-10T19:50:34.355970Z  INFO herdr::server::headless: client connected client_id=30 cols=188 rows=51 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-10T20:58:33.877189Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=22 rows=50 cols=184 scrollback_limit_bytes=10000000
+2026-07-10T20:58:33.887258Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=22 pid=47689
+2026-07-10T20:58:33.887841Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-10T20:58:38.891161Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=1
+2026-07-10T20:59:43.288957Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=22 status="ExitStatus { code: 0, signal: None }"
+2026-07-10T20:59:43.289367Z  INFO herdr::pane: pane session terminated pane=22 pid=47689 signal=Hangup
+2026-07-10T20:59:48.297353Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=1
+2026-07-10T21:00:28.656657Z  INFO herdr::server::headless: client resize client_id=30 cols=93 rows=51 cell_width_px=0 cell_height_px=0
+2026-07-10T21:00:43.915106Z  INFO herdr::server::headless: client resize client_id=30 cols=188 rows=51 cell_width_px=0 cell_height_px=0
+2026-07-10T22:37:18.443122Z  INFO herdr::server::headless: client detach requested via keybind client_id=30
+2026-07-10T22:37:18.455060Z  INFO herdr::server::headless: client disconnected client_id=30
+2026-07-10T22:58:10.155400Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-10T23:30:09.137141Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T00:00:09.116315Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T00:30:09.127229Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T01:00:09.177130Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T01:30:09.264117Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T02:00:09.406599Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"

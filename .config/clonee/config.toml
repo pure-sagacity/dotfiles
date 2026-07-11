@@ -1,0 +1,5 @@
+[[provider]]
+type = "gitea"
+friendly_name = "Gitea"
+base_url = "https://gitea.maariz.org"
+username = "pure_sagacity"

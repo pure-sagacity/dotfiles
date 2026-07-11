@@ -40,3 +40,11 @@
 2026-07-08T23:18:52.792997Z  INFO herdr::client: connecting to server path=/Users/Maaz/.config/herdr/herdr-client.sock
 2026-07-08T23:18:52.804145Z  INFO herdr::client: handshake succeeded version=16 encoding=SemanticFrame
 2026-07-09T04:45:15.917984Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=27902
+2026-07-09T17:15:04.313089Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=16991
+2026-07-09T17:15:04.313580Z  INFO herdr::client: connecting to server path=/Users/Maaz/.config/herdr/herdr-client.sock
+2026-07-09T17:15:04.503050Z  INFO herdr::client: handshake succeeded version=16 encoding=SemanticFrame
+2026-07-10T19:04:07.523305Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=16991
+2026-07-10T19:50:34.267681Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=9248
+2026-07-10T19:50:34.267963Z  INFO herdr::client: connecting to server path=/Users/Maaz/.config/herdr/herdr-client.sock
+2026-07-10T19:50:34.355543Z  INFO herdr::client: handshake succeeded version=16 encoding=SemanticFrame
+2026-07-10T22:37:18.450847Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=9248
