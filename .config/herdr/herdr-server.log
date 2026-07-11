@@ -533,3 +533,28 @@
 2026-07-11T03:10:09.779592Z  INFO herdr::server::headless: client connected client_id=32 cols=188 rows=51 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
 2026-07-11T03:10:17.378716Z  INFO herdr::server::headless: client detach requested via keybind client_id=32
 2026-07-11T03:10:17.383617Z  INFO herdr::server::headless: client disconnected client_id=32
+2026-07-11T03:30:32.427024Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T04:26:39.518904Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T04:56:39.490020Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T05:26:39.428960Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T05:58:37.444913Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T06:28:37.515625Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T07:45:19.272557Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T08:15:19.302570Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T11:11:01.167150Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T14:16:51.498619Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T20:01:21.363890Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T20:03:04.608152Z  INFO herdr::server::headless: client connected client_id=34 cols=188 rows=51 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-11T20:03:28.434160Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=17 status="ExitStatus { code: 0, signal: None }"
+2026-07-11T20:03:28.435308Z  INFO herdr::pane: pane session terminated pane=17 pid=77558 signal=Hangup
+2026-07-11T20:03:28.436320Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=23 rows=50 cols=184 scrollback_limit_bytes=10000000
+2026-07-11T20:03:28.443786Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=23 pid=48689
+2026-07-11T20:03:28.444222Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="wB" pane_id=23
+2026-07-11T20:03:28.444238Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wB"
+2026-07-11T20:03:28.444270Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-07-11T20:03:32.027737Z  INFO herdr::server::headless: client detach requested via keybind client_id=34
+2026-07-11T20:03:32.032196Z  INFO herdr::server::headless: client disconnected client_id=34
+2026-07-11T20:03:33.451864Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=1
+2026-07-11T20:04:12.375879Z  INFO herdr::server::headless: client connected client_id=36 cols=188 rows=51 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-11T20:33:56.085017Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T21:01:51.907646Z  INFO herdr::server::headless: client disconnected client_id=36

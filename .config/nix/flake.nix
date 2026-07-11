@@ -101,6 +101,8 @@
             inputs.clonee.packages.${system}.default
           ];
 
+          nixpkgs.config.allowUnfree = true;
+
           services.aerospace = {
             enable = true;
             settings = {
