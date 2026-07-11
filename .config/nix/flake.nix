@@ -19,6 +19,11 @@
       url = "github:pure-sagacity/silicate";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    clonee = {
+      url = "git+https://gitea.maariz.org/pure_sagacity/clonee";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -26,6 +31,7 @@
       self,
       nixpkgs,
       silicate,
+      clonee,
       herdr,
       nix-darwin,
       nix-homebrew,
@@ -92,6 +98,7 @@
 
             inputs.silicate.packages.${system}.default
             inputs.herdr.packages.${system}.default
+            inputs.clonee.packages.${system}.default
           ];
 
           services.aerospace = {

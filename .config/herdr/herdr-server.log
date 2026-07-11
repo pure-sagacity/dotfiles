@@ -528,3 +528,8 @@
 2026-07-11T01:00:09.177130Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
 2026-07-11T01:30:09.264117Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
 2026-07-11T02:00:09.406599Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T02:30:09.198994Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T03:00:09.187079Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-11T03:10:09.779592Z  INFO herdr::server::headless: client connected client_id=32 cols=188 rows=51 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-11T03:10:17.378716Z  INFO herdr::server::headless: client detach requested via keybind client_id=32
+2026-07-11T03:10:17.383617Z  INFO herdr::server::headless: client disconnected client_id=32
