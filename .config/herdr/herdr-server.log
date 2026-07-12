@@ -561,3 +561,33 @@
 2026-07-11T22:10:18.892512Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=23 status="ExitStatus { code: 1, signal: Some(\"Terminated: 15\") }"
 2026-07-11T22:10:18.905548Z  INFO herdr::pane: pane session terminated pane=23 pid=48689 signal=Hangup
 2026-07-11T22:10:18.907258Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-07-12T16:18:46.831025Z  INFO herdr::platform::macos: raised server file descriptor soft limit previous=256 target=8192
+2026-07-12T16:18:46.832737Z  INFO herdr::api::server: api server listening path=/Users/Maaz/.config/herdr/herdr.sock
+2026-07-12T16:18:46.841279Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-07-12T16:18:46.850282Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=5737
+2026-07-12T16:18:46.852064Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-07-12T16:18:46.852369Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-07-12T16:18:46.886513Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T16:18:46.893499Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=/Users/Maaz
+2026-07-12T16:18:46.893862Z  INFO herdr::server::headless: client protocol socket listening path=/Users/Maaz/.config/herdr/herdr-client.sock
+2026-07-12T16:18:46.893895Z  INFO herdr::server::headless: herdr server started api_socket=/Users/Maaz/.config/herdr/herdr.sock client_socket=/Users/Maaz/.config/herdr/herdr-client.sock
+2026-07-12T16:18:46.893927Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=5736
+2026-07-12T16:18:46.991314Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T16:18:47.155157Z  INFO herdr::server::headless: client connected client_id=2 cols=188 rows=51 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-12T16:18:57.626799Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="claude"
+2026-07-12T16:18:57.628677Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="copilot"
+2026-07-12T16:19:02.634019Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=1
+2026-07-12T16:19:28.409389Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-07-12T16:26:35.837353Z  INFO herdr::server::headless: client connected client_id=4 cols=188 rows=51 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-12T16:27:12.724503Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=50 cols=152 scrollback_limit_bytes=10000000
+2026-07-12T16:27:12.737339Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=13831
+2026-07-12T16:27:12.738470Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-07-12T16:27:17.748677Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=1
+2026-07-12T16:27:22.293461Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-12T16:27:23.100974Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-07-12T16:27:28.107975Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=1
+2026-07-12T16:32:19.943656Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-12T16:34:52.297072Z  INFO herdr::server::headless: client resize client_id=4 cols=189 rows=52 cell_width_px=0 cell_height_px=0
+2026-07-12T16:34:52.397069Z  INFO herdr::server::headless: client resize client_id=4 cols=188 rows=51 cell_width_px=0 cell_height_px=0
+2026-07-12T16:34:53.517644Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t2"
+2026-07-12T16:34:58.523260Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/Maaz/.config/herdr/session.json workspaces=1

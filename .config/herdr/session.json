@@ -4,32 +4,48 @@
     {
       "id": "wB",
       "custom_name": null,
-      "identity_cwd": "/Users/Maaz",
+      "identity_cwd": "/Users/Maaz/Documents/Git/nixos-dotfiles",
       "public_pane_numbers": {
-        "23": 1
+        "1": 1,
+        "2": 2
       },
-      "next_public_pane_number": 2,
+      "next_public_pane_number": 3,
       "public_tab_numbers": [
-        1
+        1,
+        2
       ],
-      "next_public_tab_number": 2,
+      "next_public_tab_number": 3,
       "tabs": [
         {
           "custom_name": null,
           "layout": {
-            "Pane": 23
+            "Pane": 1
           },
           "panes": {
-            "23": {
-              "cwd": "/Users/Maaz"
+            "1": {
+              "cwd": "/Users/Maaz/Documents/Git/nixos-dotfiles"
             }
           },
           "zoomed": false,
-          "focused": 23,
-          "root_pane": 23
+          "focused": 1,
+          "root_pane": 1
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 2
+          },
+          "panes": {
+            "2": {
+              "cwd": "/Users/Maaz/Dotfiles"
+            }
+          },
+          "zoomed": false,
+          "focused": 2,
+          "root_pane": 2
         }
       ],
-      "active_tab": 0
+      "active_tab": 1
     }
   ],
   "active": 0,
