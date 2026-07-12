@@ -558,3 +558,6 @@
 2026-07-11T20:04:12.375879Z  INFO herdr::server::headless: client connected client_id=36 cols=188 rows=51 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
 2026-07-11T20:33:56.085017Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
 2026-07-11T21:01:51.907646Z  INFO herdr::server::headless: client disconnected client_id=36
+2026-07-11T22:10:18.892512Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=23 status="ExitStatus { code: 1, signal: Some(\"Terminated: 15\") }"
+2026-07-11T22:10:18.905548Z  INFO herdr::pane: pane session terminated pane=23 pid=48689 signal=Hangup
+2026-07-11T22:10:18.907258Z  INFO herdr::server::headless: client disconnected client_id=2

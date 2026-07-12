@@ -30,6 +30,7 @@
     "rustdesk"
     "jordanbaird-ice"
     "cotypist"
+    "appcleaner"
   ];
   # Auto deletes any brews/casks that are not specified in the configuration
   onActivation.cleanup = "zap";

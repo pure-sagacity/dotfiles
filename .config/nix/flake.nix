@@ -15,6 +15,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    fast = {
+      url = "github:GitanElyon/fast";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     silicate = {
       url = "github:pure-sagacity/silicate";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -33,6 +38,7 @@
       silicate,
       clonee,
       herdr,
+      fast,
       nix-darwin,
       nix-homebrew,
     }:
@@ -99,6 +105,7 @@
             inputs.silicate.packages.${system}.default
             inputs.herdr.packages.${system}.default
             inputs.clonee.packages.${system}.default
+            inputs.fast.packages.${system}.default
           ];
 
           nixpkgs.config.allowUnfree = true;
