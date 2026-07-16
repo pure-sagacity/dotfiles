@@ -58,6 +58,10 @@ in
     pass
     secretspec
     opencode
+    go
+    gopls
+    delve
+    air
 
     inputs.silicate.packages.${system}.default
     inputs.herdr.packages.${system}.default

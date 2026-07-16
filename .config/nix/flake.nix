@@ -34,6 +34,11 @@
   outputs =
     inputs@{
       self,
+      nixpkgs,
+      silicate,
+      clonee,
+      herdr,
+      fast,
       nix-darwin,
       nix-homebrew,
     }:
