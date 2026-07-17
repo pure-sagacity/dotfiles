@@ -7,6 +7,7 @@
   ];
   casks = [
     "TheBoredTeam/boring-notch/boring-notch"
+    "darrylmorley/whatcable/whatcable"
     "jordanbaird-ice"
     "podman-desktop"
     "tailscale-app"
@@ -14,6 +15,7 @@
     "superwhisper"
     "copilot-cli"
     "tunnelblick"
+    "presentify"
     "appcleaner"
     "localsend"
     "wallspace"
@@ -27,12 +29,11 @@
     "vesktop"
     "ghostty"
     "cursor"
+    "bruno"
     "slack"
     "yoink"
     "iina"
     "rar"
-    "presentify"
-    "darrylmorley/whatcable/whatcable"
   ];
   # Auto deletes any brews/casks that are not specified in the configuration
   onActivation.cleanup = "zap";
