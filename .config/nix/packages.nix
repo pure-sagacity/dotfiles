@@ -1,0 +1,72 @@
+{ inputs, pkgs, ... }:
+let
+  system = pkgs.stdenv.hostPlatform.system;
+in
+{
+  environment.systemPackages = with pkgs; [
+    pay-respects
+    mosh
+    doggo
+    nixfmt
+    nixfmt-tree
+    fzf
+    bat
+    devenv
+    carapace
+    cmake
+    cmatrix
+    podman
+    podman-compose
+    eza
+    fastfetch
+    fd
+    ffmpeg
+    fish
+    gcc
+    gnupg
+    kubernetes-helm
+    helmfile
+    kubectl
+    lima
+    minikube
+    nasm
+    neovim
+    ninja
+    nodejs
+    openssh
+    openssl
+    qemu
+    ripgrep
+    rustup
+    sqlite
+    starship
+    stow
+    tmux
+    unzip
+    wakeonlan
+    wget
+    xh
+    xz
+    yazi
+    yt-dlp
+    zoxide
+    caddy
+    nixd
+    doppler
+    tea
+    jujutsu
+    pass
+    secretspec
+    opencode
+    go
+    gopls
+    delve
+    air
+    bun
+
+    inputs.silicate.packages.${system}.default
+    inputs.herdr.packages.${system}.default
+    inputs.clonee.packages.${system}.default
+    inputs.fast.packages.${system}.default
+  ];
+}
